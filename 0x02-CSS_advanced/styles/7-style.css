@@ -15,12 +15,10 @@
   --font-weight-regular: 400;
   --font-weight-bold: 700;
 }
-
 html {
   scroll-behavior: smooth;
   font-size: 62.5%;
 }
-
 body {
   color: var(--text-color);
   font-family: var(--font-family-base);
