@@ -1,3 +1,4 @@
+/* creates a class list with sass*/ 
 @import "variables"; // assuming we have a _variables.scss file with $list-names variable defined
 
 @each $name in $list-names {
