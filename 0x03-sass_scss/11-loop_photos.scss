@@ -1,0 +1,7 @@
+@import "variables"; // assuming we have a _variables.scss file with $list-names variable defined
+
+@each $name in $list-names {
+  .bg-#{$name} {
+    background-image: url("../images/#{$name}.jpg");
+  }
+}
