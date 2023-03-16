@@ -1,0 +1,8 @@
+/*sass file that sortes variable*/
+$list_to_sort: 5, 3, 1, 4, 2;
+
+// Sort the list and store the result in a new variable
+$sorted_list: sort($list_to_sort);
+
+// Print the sorted list in the debug output
+@debug "Sorted list: #{$sorted_list}";
