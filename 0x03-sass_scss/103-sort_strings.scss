@@ -1,2 +1,9 @@
 /* this file should started with cmmnts */
-$list_to_sort: john anna zoe kim felicia carrie;
+$list_to_sort: john, anna, zoe, kim, felicia, carrie;
+
+// Sort the list and store the result in a new variable
+$sorted_list: sort($list_to_sort);
+
+// Print the sorted list in the debug output
+@debug "Sorted list: #{$sorted_list}";
+
